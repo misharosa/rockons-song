@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+input[type="text"] {
+  font-family: inherit; /* 1 */
+  font-size: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  margin: 0; /* 2 */
+}
+
+.nav__img {
+    align-self: center;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+
+    border-radius: 50%;
+}
+
+
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+
+  background-color: cadetblue;
+}
+
+.nav__list {
+  display: flex;
+    justify-content: space-between;
+}
+
+.nav__item {
+    display: flex;
+    align-items: center;
+
+  list-style: none;
+
+  padding: 25px;
+}
+
+.song {
+  display: flex;
+  align-items: center;
+    justify-content: center;
+}
+
+.song__item {
+  padding: 7px;
+}
+
+.song__garbage__button {
+  height: 20px;
+
+  cursor: pointer;
+}
+
+.text-field__label {
+  display: block;
+  margin-bottom: 0.25rem;
+  margin-right: 10px;
+
+    color: forestgreen;
+}
+
+.text-field__input {
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.text-field__input:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #bdbdbd;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.text-field__input::placeholder {
+  color: #212529;
+  opacity: 0.4;
+}
+.text-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 10px auto;
+    width: 20%;
+}
+
+.button-8 {
+   background-color: #e1ecf4;
+   border-radius: 3px;
+   border: 1px solid #7aa7c7;
+   box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+   box-sizing: border-box;
+   color: #39739d;
+   cursor: pointer;
+   display: inline-block;
+   font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 1.15385;
+   margin: 0;
+   outline: none;
+   padding: 8px .8em;
+   position: relative;
+   text-align: center;
+   text-decoration: none;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   vertical-align: baseline;
+   white-space: nowrap;
+}
+
+.button-8:hover,
+.button-8:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.button-8:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-8:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}

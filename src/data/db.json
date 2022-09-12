@@ -1,0 +1,54 @@
+{
+  "songs": [
+    {
+      "title": "RockOns",
+      "name": "Подаруй мені",
+      "id": 11
+    },
+    {
+      "title": "RockOns",
+      "name": "Побудь моїм світлом",
+      "id": 2
+    },
+    {
+      "title": "RockOns",
+      "name": "Падає сніг",
+      "id": 3
+    },
+    {
+      "title": "RockOns",
+      "name": "Передивись",
+      "id": 4
+    },
+    {
+      "title": "RockOns",
+      "name": "Щастя прийде",
+      "id": 5
+    },
+    {
+      "title": "RockOns",
+      "name": "Син",
+      "id": 6
+    },
+    {
+      "title": "RockOns",
+      "name": "Мамо",
+      "id": 7
+    },
+    {
+      "title": "RockOns",
+      "name": "Я буду там",
+      "id": 8
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
